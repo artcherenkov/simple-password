@@ -1,0 +1,57 @@
+body {
+    font-family: 'Ubuntu Mono', Helvetica, monospace;
+    margin: 30px;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.output-pwd-list {
+    margin: 30px 0 0 30px;
+    padding: 0;
+    list-style: none;
+}
+
+.output-pwd-item {
+    display: flex;
+    align-items: center;
+}
+
+.output-pwd-item:not(:last-child) {
+    margin-bottom: 0.5em;
+}
+
+.output-pwd {
+    font-size: 14px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border: none;
+    font-family: 'Ubuntu Mono', Helvetica, monospace;
+}
+
+.output-pwd:placeholder-shown {
+    font-family: "Ubuntu Mono", Arial, monospace;
+}
+
+.copy-to-cb-button {
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    border: none;
+}
+
+.cb-status svg {
+    fill: black;
+}
+
+.cb-status--error svg {
+    fill: red;
+}
+
+.cb-status--success svg {
+    fill: #1c9b41
+}
